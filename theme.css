@@ -1,0 +1,28 @@
+:root {
+    /* Background Colors */
+    --primary-background-color: #472b71;
+    --secondary-background-color: #9d43a5;
+    --active-background-color: #fef5f5;
+/* padding */
+    --padding-sm: 0.5rem;
+    --padding-m: 1rem;
+    --padding-l: 1.5rem;
+    --padding-xl: 2rem;
+
+    /* Font Sizes */
+    --primary-font-size: 18px;
+    --secondary-font-size: 14px;
+    --active-font-size: 16px;
+
+    /* Border Radius */
+    --primary-border-radius: 8px;
+    --secondary-border-radius: 4px;
+    --active-border-radius: 6px;
+
+    /* Colors */
+    --primary-color: #ffffff;
+    --secondary-color: #000000ea;
+    --active-color: #33df08;
+}
+
+
