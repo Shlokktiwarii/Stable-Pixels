@@ -3,17 +3,24 @@
     --primary-background-color: #472b71;
     --secondary-background-color: #9d43a5;
     --active-background-color: #fef5f5;
-/* padding */
+    /* text colors */
+    --primary-text-color: #fffffff5;
+    --secondary-text-color: #131212e8;
+    --tertiary-text-color: #680eb1cb;
+    --active-text-color: #78f66fdb;
+
+    /* padding */
     --padding-sm: 0.5rem;
     --padding-m: 1rem;
     --padding-l: 1.5rem;
     --padding-xl: 2rem;
+    -- padding-xxl: 3rem;
 
     /* Font Sizes */
     --primary-font-size: 18px;
     --secondary-font-size: 14px;
     --active-font-size: 16px;
-
+    -- tertiary-font-size: 20px;
     /* Border Radius */
     --primary-border-radius: 8px;
     --secondary-border-radius: 4px;
