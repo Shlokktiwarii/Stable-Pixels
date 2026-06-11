@@ -1,7 +1,7 @@
 :root {
     /* Background Colors */
     --primary-background-color: #472b71;
-    --secondary-background-color: #9d43a5;
+    --secondary-background-color: #c88bce;
     --active-background-color: #fef5f5;
     /* text colors */
     --primary-text-color: #fffffff5;
@@ -26,6 +26,13 @@
     --secondary-border-radius: 4px;
     --active-border-radius: 6px;
 
+        /* Gutter */
+    --gutter-sm: 8px;
+    --gutter-m: 16px;
+    --gutter-l: 24px;
+    --gutter-xl: 32px;
+    --gutter-xxl: 40px;
+    
     /* Colors */
     --primary-color: #ffffff;
     --secondary-color: #000000ea;
