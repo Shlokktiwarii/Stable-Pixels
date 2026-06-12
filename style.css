@@ -5,12 +5,14 @@
 }
 html,body{
     width: 100%;
+    height: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
 }
 main{
     width: 100%;
+    min-height: 100vh;
 }
 main section{
     width: 100%;
@@ -39,12 +41,23 @@ main section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 65%;
+    gap: var(--gutter-xl);
 }
 .right{
-    display: flex;
-    width: 30%;
+    display : flex;
+    width: 25%;
+    flex-direction: column;
+    gap: var(--gutter-md);
+    background-color : rgba(0, 0, 0, 0.689);
+    padding : 20px;
+
 }
+/* main section .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 main section .top{
     display: flex;
     justify-content: center;
@@ -57,6 +70,38 @@ main section .bottom{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: var(--gutter-xl);
-    width: 100%;
+    padding: var(--padding-xxl);
+    background-color: var(--secondary-background-color);
+    aspect-ratio: 5/3;
+    width: 80%;
+}
+main section .bottom .placeholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    gap: var(--gutter-m);
+}
+main section .bottom .placeholder i {
+    font-size: 12rem
+}
+main section .right.filter{
+    width : 100%;
+}
+main section .right input{
+    width : 80%;
+    outline : none;
+    appearance: none;
+    /* margin-top : var(--gutter-sm); */
+}
+main section .right input .filter::-webkit-slider-runnable-track{
+    background-color: rgb(9, 254, 254);
+    height: 5px;
+}
+
+main section .right .filter input::-webkit-slider-thumb{
+  cursor : pointer;
+  background-color : rgb(140, 0, 255);
+  width: 15px;
 }
