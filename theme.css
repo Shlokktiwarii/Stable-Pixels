@@ -1,6 +1,6 @@
 :root {
     /* Background Colors */
-    --primary-background-color: #472b71;
+    --primary-background-color: #180b2d;
     --secondary-background-color: #c88bce;
     --active-background-color: #fef5f5;
     /* text colors */
@@ -14,13 +14,13 @@
     --padding-m: 1rem;
     --padding-l: 1.5rem;
     --padding-xl: 2rem;
-    -- padding-xxl: 3rem;
+    --padding-xxl: 3rem;
 
     /* Font Sizes */
     --primary-font-size: 18px;
     --secondary-font-size: 14px;
     --active-font-size: 16px;
-    -- tertiary-font-size: 20px;
+    --tertiary-font-size: 20px;
     /* Border Radius */
     --primary-border-radius: 8px;
     --secondary-border-radius: 4px;
